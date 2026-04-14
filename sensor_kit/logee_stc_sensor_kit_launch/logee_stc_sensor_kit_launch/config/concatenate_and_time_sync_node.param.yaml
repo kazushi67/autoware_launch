@@ -16,6 +16,6 @@
                 ]
     output_frame: base_link
     matching_strategy:
-      type: advanced
+      type: naive
       lidar_timestamp_offsets: [0.0, 0.0]
       lidar_timestamp_noise_window: [0.0, 0.0]
