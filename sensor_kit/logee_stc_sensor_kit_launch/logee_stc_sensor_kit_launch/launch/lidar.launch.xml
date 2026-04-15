@@ -11,7 +11,7 @@
 
     <group>
       <push-ros-namespace namespace="front"/>
-      <include file="$(find-pkg-share logee_stc_sensor_launch)/launch/velodyne_VLP16.launch.xml">
+      <include file="$(find-pkg-share logee_stc_sensor_launch)/launch/velodyne_VLP32.launch.xml">
         <arg name="max_range" value="250.0"/>
         <arg name="sensor_frame" value="velodyne_front"/>
         <arg name="sensor_ip" value="192.168.1.201"/>
@@ -26,7 +26,7 @@
 
     <group>
       <push-ros-namespace namespace="rear"/>
-      <include file="$(find-pkg-share logee_stc_sensor_launch)/launch/velodyne_VLP16.launch.xml">
+      <include file="$(find-pkg-share logee_stc_sensor_launch)/launch/velodyne_VLP32.launch.xml">
         <arg name="max_range" value="1.5"/>
         <arg name="sensor_frame" value="velodyne_rear"/>
         <arg name="sensor_ip" value="192.168.1.202"/>
