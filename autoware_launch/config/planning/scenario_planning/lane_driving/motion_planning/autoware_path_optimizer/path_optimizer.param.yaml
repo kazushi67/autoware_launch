@@ -72,9 +72,9 @@
         steer_rate_weight: 1.0      # weight for steering rate
 
         terminal_lat_error_weight: 100.0  # weight for lateral error at terminal point
-        terminal_yaw_error_weight: 100.0  # weight for yaw error at terminal point
+        terminal_yaw_error_weight: 10.0  # weight for yaw error at terminal point
         goal_lat_error_weight: 1000.0     # weight for lateral error at path end point
-        goal_yaw_error_weight: 1000.0     # weight for yaw error at path end point
+        goal_yaw_error_weight: 10.0     # weight for yaw error at path end point
 
       # avoidance
       avoidance:
