@@ -21,7 +21,7 @@
     turning_steps: 1
     # search configs
     theta_size: 120
-    angle_goal_range: 6.0
+    angle_goal_range: 0.1
     lateral_goal_range: 0.5
     longitudinal_goal_range: 1.0
     curve_weight: 0.5
